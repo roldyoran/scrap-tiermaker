@@ -17,8 +17,6 @@ soup = BeautifulSoup(html, 'html.parser')
 characteres = soup.find_all('div', class_="character")
 data = []
 
-# print('Cantidad de Animes: ',len(characteres))
-
 
 for cua in characteres:
     # Obtener la URL de la Imagen
@@ -59,6 +57,7 @@ for cua in characteres:
 # Guardar los datos en un archivo JSON
 with open('anime_list.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
+    print('\nCantidad de Animes: ',len(characteres))
     print(Style.BRIGHT + Fore.GREEN + '*--> Datos Guardados Correctamente <--*' + '\n')
 
 
