@@ -30,6 +30,11 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1709434805berserkougon-jidai-henlatino-185x278.png"
     },
     {
+        "nombre": "schooldays",
+        "id": "243",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723336833schooldayslatino-185x278.png"
+    },
+    {
         "nombre": "claymore",
         "id": "176",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1716439935claymore-185x278.png"
@@ -125,6 +130,11 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722047252tpbonlatino-185x278.png"
     },
     {
+        "nombre": "eyeshield21",
+        "id": "253",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724298285eyeshield21latino-185x278.png"
+    },
+    {
         "nombre": "sololevelinghd",
         "id": "150",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1713236373sololevelinglatinohd-185x278.png"
@@ -140,7 +150,7 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1713844815inuyasha.png"
     },
     {
-        "nombre": "100-man-no-inochi2latino2021",
+        "nombre": "",
         "id": "1",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/100-man-no-inochi2latino2021-185x278.png"
     },
@@ -233,6 +243,16 @@
         "nombre": "otonariniginga",
         "id": "238",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722818407otonarinigingalatino-185x278.png"
+    },
+    {
+        "nombre": "bnabrandnewanimal",
+        "id": "251",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724126167bnabrandnewanimallatino-185x278.png"
+    },
+    {
+        "nombre": "tokyomagnitude8-0",
+        "id": "263",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725484538tokyomagnitude8-0latino-185x278.png"
     },
     {
         "nombre": "shinobinoittoki",
@@ -425,7 +445,47 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722561076youjosenkilatino-185x278.png"
     },
     {
-        "nombre": "apari3nciaslookism",
+        "nombre": "isekaiojisan",
+        "id": "239",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722901229isekaiojisanlatino-185x278.png"
+    },
+    {
+        "nombre": "yuushapartybeasttamer",
+        "id": "240",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723014754yuushapartybeasttamerlatino-185x278.png"
+    },
+    {
+        "nombre": "mikamilacazafantasmas",
+        "id": "242",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723165994mikamilacazafantasmaslatino-185x278.png"
+    },
+    {
+        "nombre": "monsterselinfiernodragon",
+        "id": "254",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724385695monsterselinfiernodragon-185x278.png"
+    },
+    {
+        "nombre": "img",
+        "id": "256",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724557988img3346.png"
+    },
+    {
+        "nombre": "img",
+        "id": "259",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724820567img3498.png"
+    },
+    {
+        "nombre": "metallrouge",
+        "id": "261",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725222253metallrougelatino-185x278.png"
+    },
+    {
+        "nombre": "isekaisuicidesquad",
+        "id": "262",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725394251isekaisuicidesquadlatino-185x278.png"
+    },
+    {
+        "nombre": "",
         "id": "4",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/apari3nciaslookismlatino-185x278.png"
     },
@@ -600,6 +660,21 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722232363img2500.png"
     },
     {
+        "nombre": "linkclick",
+        "id": "241",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723081120linkclicklatino-185x278.png"
+    },
+    {
+        "nombre": "img",
+        "id": "246",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723605326img2860.png"
+    },
+    {
+        "nombre": "akumakun2023",
+        "id": "252",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724215967akumakun2023latino1-185x278.png"
+    },
+    {
         "nombre": "sentouinhakenshimasu",
         "id": "43",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1704936668sentouinhakenshimasulatino-185x278.png"
@@ -620,7 +695,7 @@
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1704936668shijousaikyounodaimaoulatino-185x278.png"
     },
     {
-        "nombre": "arifureta",
+        "nombre": "",
         "id": "5",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/arifuretalatino-185x278.png"
     },
@@ -655,7 +730,7 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1704938956kakkounoiinazukelatino-185x278.png"
     },
     {
-        "nombre": "86eightysix",
+        "nombre": "",
         "id": "2",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/86eightysixlatino2021-185x278.png"
     },
@@ -825,6 +900,16 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1721017138charlottelatino-185x278.png"
     },
     {
+        "nombre": "eiyuukyoushitsu",
+        "id": "244",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723426256eiyuukyoushitsulatino-185x278.png"
+    },
+    {
+        "nombre": "brave10",
+        "id": "250",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724043028brave10latino-185x278.png"
+    },
+    {
         "nombre": "level1dakedouniqueskilldesaikyoudesu",
         "id": "29",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1704936551level1dakedouniqueskilldesaikyoudesulatino.png"
@@ -875,7 +960,7 @@
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1704936552otomegamesekailatino-185x278.png"
     },
     {
-        "nombre": "aharen-sanwahakarenai",
+        "nombre": "",
         "id": "3",
         "url": "https://tiermaker.com/images/media/template_images/2024/16203118/animes-random-saikomic-16203118/aharen-sanwahakarenailatino-185x278.png"
     },
@@ -1100,6 +1185,31 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722461089haiyorenyaruko-sanlatino-185x278.png"
     },
     {
+        "nombre": "hananoi-kuntokoinoyamai",
+        "id": "245",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723521155hananoi-kuntokoinoyamailatino-185x278.png"
+    },
+    {
+        "nombre": "momochi-sanchinoayakashiouji",
+        "id": "248",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723694766momochi-sanchinoayakashioujilatino-185x278.png"
+    },
+    {
+        "nombre": "windbreaker",
+        "id": "249",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723954733windbreakerlatino-185x278.png"
+    },
+    {
+        "nombre": "undeadunluck",
+        "id": "257",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724734490undeadunlucklatino-185x278.png"
+    },
+    {
+        "nombre": "saijakutamerwagomihiroinotabiwohajimemashita",
+        "id": "260",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724903237saijakutamerwagomihiroinotabiwohajimemashitalatino-185x278.png"
+    },
+    {
         "nombre": "watashinoshiawasenakekkon",
         "id": "202",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1719379565watashinoshiawasenakekkonlatino.png"
@@ -1115,94 +1225,28 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1719812870wonderegglatino2021-185x278.png"
     },
     {
-        "nombre": "isekaiojisan",
-        "id": "239",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722901229isekaiojisanlatino-185x278.png"
+        "nombre": "kenichi",
+        "id": "264",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725571460kenichilatino-185x278.png"
     },
     {
-        "nombre": "img",
-        "id": "256",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724557988img3346.png"
+        "nombre": "kusuriyanohitorigoto",
+        "id": "265",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725759272kusuriyanohitorigotolatino-185x278.png"
     },
     {
-        "nombre": "undeadunluck",
-        "id": "257",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724734490undeadunlucklatino-185x278.png"
+        "nombre": "bucchigiri",
+        "id": "266",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725935279bucchigirilatino-185x278.png"
     },
     {
-        "nombre": "img",
-        "id": "259",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724820567img3498.png"
+        "nombre": "shikanokonokonokokoshitantan",
+        "id": "267",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726020271shikanokonokonokokoshitantanlatino-185x278.png"
     },
     {
-        "nombre": "saijakutamerwagomihiroinotabiwohajimemashita",
-        "id": "260",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724903237saijakutamerwagomihiroinotabiwohajimemashitalatino-185x278.png"
-    },
-    {
-        "nombre": "yuushapartybeasttamer",
-        "id": "240",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723014754yuushapartybeasttamerlatino-185x278.png"
-    },
-    {
-        "nombre": "mikamilacazafantasmas",
-        "id": "242",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723165994mikamilacazafantasmaslatino-185x278.png"
-    },
-    {
-        "nombre": "monsterselinfiernodragon",
-        "id": "254",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724385695monsterselinfiernodragon-185x278.png"
-    },
-    {
-        "nombre": "eyeshield21",
-        "id": "253",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724298285eyeshield21latino-185x278.png"
-    },
-    {
-        "nombre": "bnabrandnewanimal",
-        "id": "251",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724126167bnabrandnewanimallatino-185x278.png"
-    },
-    {
-        "nombre": "linkclick",
-        "id": "241",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723081120linkclicklatino-185x278.png"
-    },
-    {
-        "nombre": "img",
-        "id": "246",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723605326img2860.png"
-    },
-    {
-        "nombre": "akumakun2023",
-        "id": "252",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724215967akumakun2023latino1-185x278.png"
-    },
-    {
-        "nombre": "eiyuukyoushitsu",
-        "id": "244",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723426256eiyuukyoushitsulatino-185x278.png"
-    },
-    {
-        "nombre": "brave10",
-        "id": "250",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1724043028brave10latino-185x278.png"
-    },
-    
-    {
-        "nombre": "hananoi-kuntokoinoyamai",
-        "id": "245",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723521155hananoi-kuntokoinoyamailatino-185x278.png"
-    },
-    {
-        "nombre": "momochi-sanchinoayakashiouji",
-        "id": "248",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723694766momochi-sanchinoayakashioujilatino-185x278.png"
-    },
-    {
-        "nombre": "windbreaker",
-        "id": "249",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1723954733windbreakerlatino-185x278.png"
+        "nombre": "campeoneshaciaelmundialoliverybenji",
+        "id": "268",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726106356campeoneshaciaelmundialoliverybenjilatino-185x278.png"
     }
 ]
