@@ -145,6 +145,16 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726460518ping-pong-the-animation.png"
     },
     {
+        "nombre": "dororo",
+        "id": "275",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727145217dororo-185x278.png"
+    },
+    {
+        "nombre": "sonic-x",
+        "id": "283",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1728006051sonic-x.png"
+    },
+    {
         "nombre": "sololevelinghd",
         "id": "150",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1713236373sololevelinglatinohd-185x278.png"
@@ -263,6 +273,41 @@
         "nombre": "tokyomagnitude8-0",
         "id": "263",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725484538tokyomagnitude8-0latino-185x278.png"
+    },
+    {
+        "nombre": "kuragehime",
+        "id": "269",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726196467kuragehime.png"
+    },
+    {
+        "nombre": "stein-gate",
+        "id": "271",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726458446stein-gate.png"
+    },
+    {
+        "nombre": "mazinger-z",
+        "id": "277",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727394379mazinger-z.png"
+    },
+    {
+        "nombre": "oniichan-no-koto-nanka-zenzen-suki-ja-nai-n-da-kara-ne",
+        "id": "278",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727494744oniichan-no-koto-nanka-zenzen-suki-ja-nai-n-da-kara-ne-185x278.png"
+    },
+    {
+        "nombre": "terminator-zero",
+        "id": "282",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727838512terminator-zerolatino-185x278.png"
+    },
+    {
+        "nombre": "b-gata-h-kei",
+        "id": "284",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1728177923b-gata-h-kei.png"
+    },
+    {
+        "nombre": "thermae-romae-novae",
+        "id": "285",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1728439345thermae-romae-novae.png"
     },
     {
         "nombre": "shinobinoittoki",
@@ -495,14 +540,14 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725222253metallrougelatino-185x278.png"
     },
     {
-        "nombre": "kuragehime",
-        "id": "269",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726196467kuragehime.png"
+        "nombre": "los-caballeros-del-zodiaco",
+        "id": "273",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726462743los-caballeros-del-zodiaco.png"
     },
     {
-        "nombre": "stein-gate",
-        "id": "271",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726458446stein-gate.png"
+        "nombre": "kekkai-sensen",
+        "id": "281",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727741336kekkai-sensen.png"
     },
     {
         "nombre": "",
@@ -703,6 +748,16 @@
         "nombre": "shikanokonokonokokoshitantan",
         "id": "267",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726020271shikanokonokonokokoshitantanlatino-185x278.png"
+    },
+    {
+        "nombre": "bungou-stray-dogs",
+        "id": "279",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727571368bungou-stray-dogs.png"
+    },
+    {
+        "nombre": "c-the-money-of-soul-and-possibility-control",
+        "id": "280",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727740739c-the-money-of-soul-and-possibility-control.png"
     },
     {
         "nombre": "sentouinhakenshimasu",
@@ -948,6 +1003,11 @@
         "nombre": "kenichi",
         "id": "264",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1725571460kenichilatino-185x278.png"
+    },
+    {
+        "nombre": "ultramarine-magmell",
+        "id": "276",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1727146273ultramarine-magmell.png"
     },
     {
         "nombre": "level1dakedouniqueskilldesaikyoudesu",
@@ -1255,6 +1315,16 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726369434usagidrop.png"
     },
     {
+        "nombre": "kujira-no-kora-wa-sajou",
+        "id": "274",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726970657kujira-no-kora-wa-sajou.png"
+    },
+    {
+        "nombre": "d4dj",
+        "id": "286",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1728439615d4dj.png"
+    },
+    {
         "nombre": "watashinoshiawasenakekkon",
         "id": "202",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1719379565watashinoshiawasenakekkonlatino.png"
@@ -1268,15 +1338,5 @@
         "nombre": "wonderegg",
         "id": "205",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1719812870wonderegglatino2021-185x278.png"
-    },
-    {
-        "nombre": "los-caballeros-del-zodiaco",
-        "id": "273",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726462743los-caballeros-del-zodiaco.png"
-    },
-    {
-        "nombre": "kujira-no-kora-wa-sajou",
-        "id": "274",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1726970657kujira-no-kora-wa-sajou.png"
     }
 ]
