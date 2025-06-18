@@ -2232,9 +2232,10 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748757899kyuujitsu-no-warumono-san.png"
     },
     {
-        "nombre": "captura-de-pantalla-2025-06-02-",
+        "nombre": "gakkougurashi",
         "id": "469",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748899635captura-de-pantalla-2025-06-02-142641.png"
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748899635captura-de-pantalla-2025-06-02-142641.png",
+        "nota": "goty"
     },
     {
         "nombre": "img",
@@ -2320,5 +2321,10 @@
         "nombre": "cuacua",
         "id": "9990",
         "url": "https://i.pinimg.com/736x/84/9c/3a/849c3a0d02206f7d6526c75b5f618485.jpg"
+    },
+    {
+        "nombre": "fullmetalalchemistbrotherhood",
+        "id": "9991",
+        "url": "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_.jpg"
     }
 ]
