@@ -1,148 +1,212 @@
-# Script de Actualización de Lista de Animes
+# Tiermaker Anime Scraper
 
-## Descripción General
-Este script `app.py` es una herramienta automatizada diseñada para extraer y actualizar información de animes desde Tiermaker. El script mantiene una lista actualizada de animes mientras preserva datos personalizados como notas y URLs específicas.
+## Descripción
 
-## Características Principales
-- Extracción automática de datos de Tiermaker
-- Preservación de datos personalizados existentes
-- Manejo asíncrono de operaciones web
-- Sistema robusto de extracción de datos mediante expresiones regulares
-- Actualización inteligente de registros existentes
+Este proyecto es un scraper web asíncrono diseñado para extraer información de animes desde una lista de Tiermaker específica. Utiliza Playwright para navegación web automatizada y BeautifulSoup para el parsing de HTML, con capacidades de reintentos, manejo de protecciones de Cloudflare y actualización inteligente de datos.
 
-## Requisitos
+## Características
+
+- ✨ **Scraping asíncrono** con Playwright
+- 🔄 **Sistema de reintentos automáticos** (hasta 3 intentos)
+- 🛡️ **Bypass de protecciones Cloudflare**
+- 📊 **Interfaz visual con Rich** (barras de progreso y colores)
+- 🔧 **Actualización inteligente de datos** (preserva datos existentes)
+- 💾 **Respaldo automático** de archivos
+- 🔀 **Sistema de intercambios personalizados**
+
+## Instalación
+
+### Prerrequisitos
+
+Asegúrate de tener Python 3.7+ instalado en tu sistema.
+
+### Dependencias
+
+Instala las dependencias necesarias ejecutando:
+
+```bash
+pip install playwright beautifulsoup4 rich asyncio
 ```
-playwright
-beautifulsoup4
-asyncio
+
+### Configuración de Playwright
+
+Después de instalar Playwright, ejecuta:
+
+```bash
+playwright install chromium
 ```
 
-## Funciones Principales
+## Estructura del Proyecto
 
-### `fetch_page_content(url)`
-- Función asíncrona que obtiene el contenido de la página
-- Utiliza Playwright para la navegación web automatizada
-- Implementa esperas inteligentes para asegurar la carga completa
-- Configuración anti-detección de bots
-
-### `extract_data(content)`
-- Procesa el HTML para extraer información de animes
-- Utiliza BeautifulSoup para el parsing
-- Extrae URLs de imágenes y nombres mediante regex
-- Limpia y formatea los nombres de animes
-
-### `compare_anime_data(anime_data_list, filename)`
-- Compara y actualiza datos con el archivo original
-- Preserva notas existentes
-- Mantiene URLs personalizadas
-- Maneja casos especiales de reordenamiento
-
-### `save_to_json(anime_data_list, filename)`
-- Guarda los datos actualizados en formato JSON
-- Preserva el formato UTF-8 para caracteres especiales
-
-## Estructura de Datos
-
-### Formato del Archivo JSON
-```json
-[
-    {
-        "id": "string",       // Identificador único del anime
-        "nombre": "string",   // Nombre del anime
-        "url": "string",      // URL de la imagen
-        "nota": "string"      // Nota opcional personalizada
-    }
-]
+```
+proyecto/
+├── main.py              # Script principal
+├── original.json        # Archivo de respaldo con datos originales
+├── animes_updated.json  # Archivo de salida actualizado
+├── README.md            # Este archivo
+└── requirements.txt     # Archivo para instalar las dependencias directamente
 ```
 
 ## Uso
-1. Asegúrate de tener los requisitos instalados
-2. Ejecuta el script:
-   ```bash
-   python app.py
-   ```
-3. El script generará/actualizará `animes_updated.json`
 
-## Notas Importantes
-- El script requiere conexión a internet
-- Mantén un archivo `original.json` con la estructura correcta
-- Las notas y URLs personalizadas se preservarán durante la actualización
-- El script incluye un manejo especial para reordenar ciertos animes específicos (IDs: 458 y 225)
+### Ejecución básica
 
-### 4. Procesamiento de Datos
-Implementa un sistema de actualización que:
-- Mantiene datos existentes de `original.json`
-- Actualiza entradas modificadas
-- Agrega nuevos personajes
-- Preserva notas y URLs personalizadas
+```bash
+python main.py
+```
 
-### 5. Sistema de Logging
-Utiliza la biblioteca `rich` para proporcionar:
-- Barras de progreso interactivas
-- Tablas de resumen
-- Paneles informativos
-- Logging con colores
+### Configuración
 
-## Flujo de Ejecución
-1. Inicialización del navegador con configuraciones anti-detección
-2. Navegación a la URL de Tiermaker
-3. Manejo de protección Cloudflare
-4. Extracción de datos de personajes
-5. Carga y procesamiento de datos existentes
-6. Actualización y fusión de información
-7. Generación de reportes
-8. Guardado de datos actualizados
+El script está configurado para scraper la siguiente URL por defecto:
+```python
+URL = "https://tiermaker.com/create/animes-random-saikomic-16203118"
+```
 
-## Estructura de Datos
+Puedes modificar esta URL en la función `main()` si necesitas scraper una lista diferente.
 
-### Formato de Entrada (original.json)
+## Funcionalidades Detalladas
+
+### 1. Extracción de Datos (`fetch_page_content`)
+
+- Lanza un navegador Chromium en modo headless
+- Incluye headers personalizados para evitar detección
+- Maneja protecciones de Cloudflare automáticamente
+- Sistema de reintentos con delays progresivos
+
+### 2. Procesamiento de Datos (`extract_data`)
+
+Extrae la siguiente información de cada anime:
+- **Nombre**: Extraído de la URL de la imagen usando expresiones regulares
+- **ID**: Identificador único del elemento
+- **URL**: Enlace de la imagen del anime
+
+### 3. Comparación y Actualización (`compare_anime_data`)
+
+- Preserva campos personalizados como 'nota' de datos existentes
+- Mantiene URLs y nombres modificados manualmente
+- Ejecuta intercambios automáticos predefinidos
+- Añade nuevos animes sin sobrescribir existentes
+
+### 4. Sistema de Intercambios
+
+El script incluye un sistema para intercambiar posiciones de animes específicos:
+
+```python
+INTERCAMBIOS_SIMPLE = {
+    "458": "225",  # Intercambia anime ID 458 con ID 225
+    "469": "196",  # Intercambia anime ID 469 con ID 196
+}
+```
+
+### 5. Guardado Seguro (`save_to_json`)
+
+- Guarda datos en `animes_updated.json`
+- Crea respaldo automático en `original.json`
+- Manejo de errores durante el guardado
+
+## Formato de Datos
+
+Los datos se guardan en formato JSON con la siguiente estructura:
+
 ```json
 [
     {
-        "id": "string",
-        "nombre": "string",
-        "url": "string",
-        "nota": "string (opcional)"
+        "nombre": "NombreDelAnime",
+        "id": "123",
+        "url": "https://tiermaker.com/images/...",
+        "nota": "Comentario opcional (si existe)"
     }
 ]
 ```
 
-### Formato de Salida (anime_list.json)
-```json
-[
-    {
-        "id": "string",
-        "nombre": "string",
-        "url": "string",
-        "nota": "string (si existe en original)"
-    }
-]
+## Configuración Avanzada
+
+### Modificar Timeouts
+
+```python
+# En fetch_page_content()
+await page.goto(url, wait_until="load", timeout=30000)  # 30 segundos
+await page.wait_for_timeout(12000)  # 12 segundos de espera adicional
+```
+
+### Personalizar User Agent
+
+```python
+'--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36...'
+```
+
+### Agregar Nuevos Intercambios
+
+Modifica el diccionario `INTERCAMBIOS_SIMPLE` en la función `compare_anime_data()`:
+
+```python
+INTERCAMBIOS_SIMPLE = {
+    "ID_ORIGEN": "ID_DESTINO",
+    "458": "225",
+    "469": "196",
+    # Agrega más intercambios aquí
+}
 ```
 
 ## Manejo de Errores
-- Captura de errores de navegación
-- Generación de screenshots en caso de error
-- Logging detallado de problemas
-- Fallbacks para patrones de extracción
 
-## Métricas y Reportes
-Genera reportes detallados incluyendo:
-- Total de personajes encontrados
-- Número de actualizaciones
-- Nuevas adiciones
-- Cambios en URLs y nombres
+El script incluye manejo robusto de errores:
 
-## Requisitos del Sistema
-- Python 3.7+
-- Playwright
-- BeautifulSoup4
-- Rich
-- Conexión a Internet estable
-- Memoria suficiente para procesamiento de datos
+- **Errores de conexión**: Reintentos automáticos con delays
+- **Elementos no encontrados**: Mensajes claros de error
+- **Protecciones web**: Detección y bypass automático
+- **Errores de guardado**: Preservación de datos originales
 
-## Limitaciones Conocidas
-- Dependencia de la estructura HTML de Tiermaker
-- Sensibilidad a cambios en la protección anti-bot
-- Necesidad de conexión estable a Internet
-- Tiempo de espera para bypass de Cloudflare
-        
+## Logging y Monitoreo
+
+El script utiliza Rich Console para proporcionar feedback visual:
+
+- 🟡 **Amarillo**: Intentos de conexión
+- 🔴 **Rojo**: Errores y problemas
+- 🟢 **Verde**: Operaciones exitosas
+- 🔵 **Azul**: Procesamiento de datos
+
+## Solución de Problemas
+
+### Error: "No se encontraron elementos de anime"
+
+- Verifica que la URL sea correcta
+- Asegúrate de que la página cargue completamente
+- Revisa si hay cambios en la estructura HTML del sitio
+
+### Error: "Detectada protección de Cloudflare"
+
+- El script maneja automáticamente este caso
+- Si persiste, aumenta los timeouts en la configuración
+
+### Problemas de instalación de Playwright
+
+```bash
+# Reinstalar navegadores
+playwright install --force
+
+# Verificar instalación
+playwright --version
+```
+
+## Contribución
+
+Para contribuir al proyecto:
+
+1. Fork el repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Crea un Pull Request
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Contacto
+
+Para preguntas o sugerencias, puedes crear un issue en el repositorio del proyecto.
+
+---
+
+**Nota**: Este scraper está diseñado para uso educativo y personal. Asegúrate de cumplir con los términos de servicio del sitio web objetivo.

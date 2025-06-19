@@ -30,7 +30,7 @@ jobs:
 
       # Paso 4: Ejecutar tu script (genera animes_updated.json)
       - name: Run scraper
-        run: python app.py  # Asegúrate de que el nombre del archivo coincida
+        run: python main.py  # Asegúrate de que el nombre del archivo coincida
 
       # Paso 5: Subir cambios al repositorio (commit + push)
       - name: Commit and push changes
