@@ -36,6 +36,6 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Actualización automática: animes_updated.json"
+          commit_message: "Actualización automática: animes_updated.json y original.json"
           branch: master  # Cambia si usas otra rama
           file_pattern: '*.json'  # Se actualizarán todos los archivos JSON
