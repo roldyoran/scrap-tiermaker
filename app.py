@@ -1,10 +1,11 @@
 import asyncio
-from playwright.async_api import async_playwright
-from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright # type: ignore
+from bs4 import BeautifulSoup # type: ignore
 import re
 import json
-from rich.console import Console
-from rich.progress import Progress, SpinnerColumn, TextColumn
+import shutil
+from rich.console import Console # type: ignore
+from rich.progress import Progress, SpinnerColumn, TextColumn # type: ignore
 
 # Inicializar Rich Console
 console = Console()
@@ -130,24 +131,34 @@ def compare_anime_data(anime_data_list, filename):
                 if original_anime["nombre"] != anime["nombre"]:
                     anime['nombre'] = original_anime['nombre']
 
-        
-        # Mover un anime con id especifico a la posicion de otro anime con id especifico, codigo:
-        SPECIFIC_ID = "458"
-        TARGET_ID = "225"
-        # busqueda en el diccionario
-        specific_anime = next((anime for anime in anime_data_list if anime['id'] == SPECIFIC_ID), None)
-        target_anime = next((anime for anime in anime_data_list if anime['id'] == TARGET_ID), None)
-        # Si ambos animes existen, mover el específico a la posición del objetivo
-        if specific_anime and target_anime:
-            # Eliminar el anime específico de su posición actual
-            anime_data_list.remove(specific_anime)
-            # Encontrar la posición del anime objetivo
-            target_index = anime_data_list.index(target_anime)
-            # Insertar el anime específico en la posición del anime objetivo
-            anime_data_list.insert(target_index, specific_anime)
-            # Mover el target anime a la posición del específico
-            anime_data_list.remove(target_anime)
-            anime_data_list.append(target_anime)
+        # Definir intercambios
+        INTERCAMBIOS_SIMPLE = {
+            "458": "225",
+            "469": "196", 
+        }
+
+        # Procesar cada intercambio
+        for specific_id, target_id in INTERCAMBIOS_SIMPLE.items():
+            print(f"\nIntercambiando {specific_id} ↔ {target_id}")
+            
+            # Buscar animes
+            specific_anime = next((anime for anime in anime_data_list if anime['id'] == specific_id), None)
+            target_anime = next((anime for anime in anime_data_list if anime['id'] == target_id), None)
+            
+            # Si ambos existen, intercambiar
+            if specific_anime and target_anime:
+                specific_index = anime_data_list.index(specific_anime)
+                target_index = anime_data_list.index(target_anime)
+                
+                # Intercambio directo
+                anime_data_list[specific_index], anime_data_list[target_index] = anime_data_list[target_index], anime_data_list[specific_index]
+                
+                print(f"✅ Completado")
+            else:
+                print(f"❌ Error: No se encontraron uno o ambos animes")
+
+        print(f"\n🎉 Todos los intercambios completados!")
+
         
         # Añadir los animes que no están en la lista scrapeada
         scraped_anime_ids = {anime['id'] for anime in anime_data_list}
@@ -160,9 +171,18 @@ def compare_anime_data(anime_data_list, filename):
     
 
 def save_to_json(anime_data_list, filename):
-    with open(filename, 'w', encoding='utf-8') as json_file:
-        # Guardar los datos en el archivo JSON
-        json.dump(anime_data_list, json_file, indent=4, ensure_ascii=False)
+    try:
+        with open(filename, 'w', encoding='utf-8') as json_file:
+            # Guardar los datos en el archivo JSON
+            json.dump(anime_data_list, json_file, indent=4, ensure_ascii=False)
+        
+        # Si se guardó bien, copiar el contenido a original.json
+        shutil.copyfile(filename, 'original.json')
+        # print(f"Los datos se han guardado correctamente en {filename} y se ha copiado a original.json")
+        
+    except Exception as e:
+        print(f"Ocurrió un error al guardar los archivos: {e}")
+
 
 async def main():
     URL = "https://tiermaker.com/create/animes-random-saikomic-16203118"
@@ -186,7 +206,8 @@ async def main():
         save_to_json(updated_anime_data, 'animes_updated.json')
     
     # Mensaje de éxito con estilo
-    console.print("\n[bold green]✨ Datos extraídos y guardados exitosamente en[/bold green] [bold cyan]'animes_updated.json'[/bold cyan][bold green]![/bold green]")
+    console.print("\n[bold green]✨ Éxito:[/bold green] [white]Datos guardados en [/white][bold cyan]animes_updated.json[/bold cyan]")
+    console.print("[bright_black]          y copia de seguridad creada en [/bright_black][bold cyan]original.json[/bold cyan]\n")
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -60,10 +60,10 @@
         "nota": "goty 🤍"
     },
     {
-        "nombre": "katekyohitmanreborn",
-        "id": "196",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1718767536katekyohitmanrebornlatino-185x278.png",
-        "nota": "mierda"
+        "nombre": "gakkougurashi",
+        "id": "469",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748899635captura-de-pantalla-2025-06-02-142641.png",
+        "nota": "goty"
     },
     {
         "nombre": "shamanking",
@@ -2187,6 +2187,11 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748144272uma-musume.png"
     },
     {
+        "nombre": "tpbon",
+        "id": "225",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722047252tpbonlatino-185x278.png"
+    },
+    {
         "nombre": "batman-cortos",
         "id": "459",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748235963captura-de-pantalla-2025-05-25-220451.png"
@@ -2232,10 +2237,10 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748757899kyuujitsu-no-warumono-san.png"
     },
     {
-        "nombre": "gakkougurashi",
-        "id": "469",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748899635captura-de-pantalla-2025-06-02-142641.png",
-        "nota": "goty"
+        "nombre": "katekyohitmanreborn",
+        "id": "196",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1718767536katekyohitmanrebornlatino-185x278.png",
+        "nota": "mierda"
     },
     {
         "nombre": "img",
@@ -2313,11 +2318,6 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750225960zenshuu.png"
     },
     {
-        "nombre": "tpbon",
-        "id": "225",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1722047252tpbonlatino-185x278.png"
-    },
-    {
         "nombre": "cuacua",
         "id": "9990",
         "url": "https://i.pinimg.com/736x/84/9c/3a/849c3a0d02206f7d6526c75b5f618485.jpg"
@@ -2331,6 +2331,5 @@
         "nombre": "naruto",
         "id": "9992",
         "url": "https://es.web.img3.acsta.net/c_310_420/pictures/13/12/13/08/50/378271.jpg"
-
     }
 ]
