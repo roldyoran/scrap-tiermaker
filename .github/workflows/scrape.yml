@@ -38,4 +38,4 @@ jobs:
         with:
           commit_message: "Actualización automática: animes_updated.json"
           branch: main  # Cambia si usas otra rama
-          file_pattern: 'animes_updated.json'  # Solo este archivo se actualizará
+          file_pattern: '*.json'  # Se actualizarán todos los archivos JSON
