@@ -2243,7 +2243,7 @@
         "nota": "mierda"
     },
     {
-        "nombre": "img",
+        "nombre": "kemono-jihen",
         "id": "470",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748982603img2115.png"
     },
@@ -2303,7 +2303,7 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750046789log-horizon.png"
     },
     {
-        "nombre": "pokmon",
+        "nombre": "pokemon",
         "id": "482",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750135571pokmon.png"
     },
@@ -2316,6 +2316,16 @@
         "nombre": "zenshuu",
         "id": "484",
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750225960zenshuu.png"
+    },
+    {
+        "nombre": "dotto-koni-chan",
+        "id": "485",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750396337dotto-koni-chan.png"
+    },
+    {
+        "nombre": "animation-runner-kuromi-chan",
+        "id": "486",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1750569646animation-runner-kuromi-chan.png"
     },
     {
         "nombre": "fullmetalalchemistbrotherhood",
