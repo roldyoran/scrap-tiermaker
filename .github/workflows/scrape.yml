@@ -30,12 +30,17 @@ jobs:
 
       # Paso 4: Ejecutar tu script (genera animes_updated.json)
       - name: Run scraper
-        run: python main.py  # Asegúrate de que el nombre del archivo coincida
+        run: python main.py  
 
-      # Paso 5: Subir cambios al repositorio (commit + push)
+      # Paso 5: Obtener la fecha actual
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%d/%m/%Y')"
+
+      # Paso 6: Commit & Push de los archivos cambiados .json
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Actualización automática: animes_updated.json y original.json"
-          branch: master  # Cambia si usas otra rama
-          file_pattern: '*.json'  # Se actualizarán todos los archivos JSON
+          commit_message: "Actualización automática: animes_updated.json y original.json - ${{ steps.date.outputs.date }}"
+          branch: master
+          file_pattern: '*.json'
