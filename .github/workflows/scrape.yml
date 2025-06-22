@@ -32,12 +32,13 @@ jobs:
       - name: Run scraper
         run: python main.py  
 
-      # Paso 5: Obtener la fecha actual
+      #  Paso 5: Obtener la fecha actual 
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%d/%m/%Y')"
+        run: |
+          echo "date=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
 
-      # Paso 6: Commit & Push de los archivos cambiados .json
+      # Commit y Push de los archivos generados .json
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
