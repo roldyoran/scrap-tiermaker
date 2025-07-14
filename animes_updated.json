@@ -2436,5 +2436,25 @@
         "nombre": "one-piece",
         "id": "9004",
         "url": "https://m.media-amazon.com/images/M/MV5BOWNhMDU3NDQtYWViMC00M2Y4LTk4YTUtYjI2M2ZmN2Q5NDViXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "nombre": "kaguya-sama-love-is-war",
+        "id": "9005",
+        "url": "https://static.wikia.nocookie.net/doblaje/images/1/15/Kaguya-sama_Love_is_War_-_Poster.jpg/revision/latest/scale-to-width-down/1200?cb=20240406214143&path-prefix=es"
+    },
+    {
+        "nombre": "spy-x-family",
+        "id": "9006",
+        "url": "https://es.web.img3.acsta.net/pictures/21/11/22/10/54/0321052.jpg"
+    },
+    {
+        "nombre": "vinland-saga",
+        "id": "9007",
+        "url": "https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "nombre": "shingeki-no-kyojin",
+        "id": "9008",
+        "url": "https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     }
 ]
