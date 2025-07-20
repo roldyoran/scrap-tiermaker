@@ -135,6 +135,7 @@ def compare_anime_data(anime_data_list, filename):
         INTERCAMBIOS_SIMPLE = {
             "458": "225",
             "469": "196", 
+            "469": "268",
         }
 
         # Procesar cada intercambio
