@@ -48,9 +48,9 @@
         "nota": "goty"
     },
     {
-        "nombre": "supercampeones",
-        "id": "268",
-        "url": "https://m.media-amazon.com/images/M/MV5BYTlmNmM2OGMtMWQxZi00ZDNiLTgyNmMtNDdmNzcxOWE5Mjk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "nombre": "gakkougurashi",
+        "id": "469",
+        "url": "https://external-preview.redd.it/dESuwAlm2bSBZNe1MtHMghJtEP5TVL3o6oxmh2xcUMo.jpg?auto=webp&s=0075c75712a8ca219383fa12367ecc66b0ccdf66",
         "nota": "goty"
     },
     {
@@ -60,10 +60,10 @@
         "nota": "goty 🤍"
     },
     {
-        "nombre": "gakkougurashi",
-        "id": "469",
-        "url": "https://external-preview.redd.it/dESuwAlm2bSBZNe1MtHMghJtEP5TVL3o6oxmh2xcUMo.jpg?auto=webp&s=0075c75712a8ca219383fa12367ecc66b0ccdf66",
-        "nota": "goty"
+        "nombre": "katekyohitmanreborn",
+        "id": "196",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1718767536katekyohitmanrebornlatino-185x278.png",
+        "nota": "mierda"
     },
     {
         "nombre": "shamanking",
@@ -2237,10 +2237,10 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1748757899kyuujitsu-no-warumono-san.png"
     },
     {
-        "nombre": "katekyohitmanreborn",
-        "id": "196",
-        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1718767536katekyohitmanrebornlatino-185x278.png",
-        "nota": "mierda"
+        "nombre": "supercampeones",
+        "id": "268",
+        "url": "https://m.media-amazon.com/images/M/MV5BYTlmNmM2OGMtMWQxZi00ZDNiLTgyNmMtNDdmNzcxOWE5Mjk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "nota": "goty"
     },
     {
         "nombre": "kemono-jihen",
@@ -2448,6 +2448,36 @@
         "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1752978387kuzu-no-honkai.png"
     },
     {
+        "nombre": "el-ascenso-de-las-tortugas-ninja",
+        "id": "511",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753069982el-ascenso-de-las-tortugas-ninja.png"
+    },
+    {
+        "nombre": "aggretsuko",
+        "id": "512",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753243689aggretsuko.png"
+    },
+    {
+        "nombre": "comando-de-criaturas",
+        "id": "513",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753419292comando-de-criaturas.png"
+    },
+    {
+        "nombre": "toriko",
+        "id": "514",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753419292toriko.png"
+    },
+    {
+        "nombre": "clannad",
+        "id": "515",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753509289clannad.png"
+    },
+    {
+        "nombre": "yasuke",
+        "id": "516",
+        "url": "https://tiermaker.com/images//media/template_images/2024/16203118/animes-random-saikomic-16203118/zzzzz-1753679817yasuke.png"
+    },
+    {
         "nombre": "fullmetalalchemistbrotherhood",
         "id": "9001",
         "url": "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_.jpg"
@@ -2486,5 +2516,10 @@
         "nombre": "shingeki-no-kyojin",
         "id": "9008",
         "url": "https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "nombre": "my-dress-up-darling-sono-bisque-doll-wa-koi-wo-suru",
+        "id": "9009",
+        "url": "https://static.wikia.nocookie.net/doblaje/images/8/88/My_Dress-Up_Darling.jpg/revision/latest?cb=20211228001509&path-prefix=es"
     }
 ]
