@@ -13,26 +13,44 @@ Este proyecto es un scraper web asíncrono diseñado para extraer información d
 - 🔧 **Actualización inteligente de datos** (preserva datos existentes)
 - 💾 **Respaldo automático** de archivos
 - 🔀 **Sistema de intercambios personalizados**
+- ⚡ **Gestión moderna de dependencias con uv** (instalación ultra-rápida)
+- 🤖 **Automatización diaria con GitHub Actions**
 
 ## Instalación
 
 ### Prerrequisitos
 
-Asegúrate de tener Python 3.7+ instalado en tu sistema.
+Asegúrate de tener Python 3.12+ instalado en tu sistema.
 
-### Dependencias
+### Instalación con uv (Recomendado)
 
-Instala las dependencias necesarias ejecutando:
+Este proyecto usa [uv](https://docs.astral.sh/uv/) para una gestión rápida y moderna de dependencias:
+
+1. **Instalar uv**:
+   ```bash
+   # Windows (PowerShell)
+   powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+   
+   # Linux/macOS
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. **Instalar dependencias del proyecto**:
+   ```bash
+   uv sync
+   ```
+
+3. **Instalar navegadores de Playwright**:
+   ```bash
+   uv run playwright install chromium
+   ```
+
+### Instalación tradicional (Alternativa)
+
+Si prefieres usar pip:
 
 ```bash
-pip install playwright beautifulsoup4 rich asyncio
-```
-
-### Configuración de Playwright
-
-Después de instalar Playwright, ejecuta:
-
-```bash
+pip install -r requirements.txt
 playwright install chromium
 ```
 
@@ -41,16 +59,24 @@ playwright install chromium
 ```
 proyecto/
 ├── main.py              # Script principal
+├── pyproject.toml       # Configuración del proyecto y dependencias
+├── requirements.txt     # Dependencias (para compatibilidad)
 ├── original.json        # Archivo de respaldo con datos originales
 ├── animes_updated.json  # Archivo de salida actualizado
 ├── README.md            # Este archivo
-└── requirements.txt     # Archivo para instalar las dependencias directamente
+└── .github/workflows/   # Automatización con GitHub Actions
 ```
 
 ## Uso
 
 ### Ejecución básica
 
+**Con uv (recomendado)**:
+```bash
+uv run main.py
+```
+
+**Con Python tradicional**:
 ```bash
 python main.py
 ```
@@ -63,6 +89,17 @@ URL = "https://tiermaker.com/create/animes-random-saikomic-16203118"
 ```
 
 Puedes modificar esta URL en la función `main()` si necesitas scraper una lista diferente.
+
+## ¿Por qué uv?
+
+Este proyecto utiliza [uv](https://docs.astral.sh/uv/) como gestor de paquetes por las siguientes ventajas:
+
+- ⚡ **10-100x más rápido** que pip para resolución e instalación de dependencias
+- 🔒 **Gestión de entornos virtuales automática** y aislada
+- 📋 **Compatible con pyproject.toml** (estándar moderno de Python)
+- 🔄 **Resolución de dependencias más confiable**
+- 💾 **Menor uso de memoria** y espacio en disco
+- 🛠️ **Drop-in replacement** para pip (misma sintaxis)
 
 ## Funcionalidades Detalladas
 
