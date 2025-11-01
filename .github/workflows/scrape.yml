@@ -21,16 +21,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      # Paso 3: Instalar dependencias (Playwright + BeautifulSoup + Rich)
-      - name: Install dependencies
+      # Paso 3: Instalar uv y dependencias usando pyproject.toml
+      - name: Install uv and dependencies
         run: |
-          pip install -r requirements.txt
-          playwright install chromium
-          playwright install-deps
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          source $HOME/.cargo/env
+          uv sync --frozen
+          uv run playwright install chromium
+          uv run playwright install-deps
 
       # Paso 4: Ejecutar tu script (genera animes_updated.json)
       - name: Run scraper
-        run: python main.py  
+        run: |
+          source $HOME/.cargo/env
+          uv run main.py  
 
       #  Paso 5: Obtener la fecha actual 
       - name: Get current date
